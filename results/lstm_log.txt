@@ -1,0 +1,42 @@
+裝置：NVIDIA GeForce GTX 1060 3GB  torch=2.13.0+cu126
+  trial  1  h=64   L=1 w=25  do=0.49 lr=4.62e-03  -> RMSE=14.461 MAE=10.640
+  trial  2  h=64   L=1 w=35  do=0.31 lr=1.53e-03  -> RMSE=14.500 MAE=10.680
+  trial  3  h=96   L=1 w=20  do=0.46 lr=3.29e-04  -> RMSE=16.601 MAE=12.001
+  trial  4  h=96   L=1 w=25  do=0.23 lr=5.99e-04  -> RMSE=14.565 MAE=10.676
+  trial  5  h=128  L=2 w=35  do=0.39 lr=3.49e-03  -> RMSE=14.675 MAE=11.115
+  trial  6  h=32   L=2 w=30  do=0.39 lr=3.32e-03  -> RMSE=14.714 MAE=11.166
+  trial  7  h=32   L=2 w=30  do=0.40 lr=2.87e-04  -> RMSE=15.492 MAE=11.404
+  trial  8  h=32   L=1 w=35  do=0.14 lr=2.86e-04  -> RMSE=15.654 MAE=11.968
+  trial  9  h=64   L=2 w=20  do=0.49 lr=8.41e-03  -> RMSE=16.382 MAE=11.387
+  trial 10  h=96   L=2 w=40  do=0.20 lr=2.21e-03  -> RMSE=14.697 MAE=10.793
+  trial 11  h=96   L=2 w=40  do=0.28 lr=5.57e-04  -> RMSE=14.868 MAE=10.831
+  trial 12  h=96   L=2 w=40  do=0.29 lr=8.15e-03  -> RMSE=14.944 MAE=10.739
+  trial 13  h=128  L=2 w=35  do=0.35 lr=9.15e-03  -> RMSE=14.398 MAE=10.759
+  trial 14  h=128  L=1 w=35  do=0.30 lr=6.29e-03  -> RMSE=14.182 MAE=10.517
+  trial 15  h=128  L=1 w=35  do=0.19 lr=8.43e-03  -> RMSE=13.989 MAE=10.362
+  trial 16  h=96   L=2 w=20  do=0.16 lr=3.18e-03  -> RMSE=16.576 MAE=11.789
+  trial 17  h=128  L=1 w=35  do=0.30 lr=1.29e-03  -> RMSE=14.589 MAE=10.930
+  trial 18  h=128  L=1 w=20  do=0.38 lr=5.39e-03  -> RMSE=16.173 MAE=11.726
+  trial 19  h=128  L=2 w=40  do=0.13 lr=1.48e-03  -> RMSE=15.409 MAE=11.216
+  trial 20  h=128  L=1 w=35  do=0.17 lr=1.57e-03  -> RMSE=15.569 MAE=11.935
+  trial 21  h=32   L=2 w=40  do=0.14 lr=3.03e-03  -> RMSE=14.434 MAE=10.285
+  trial 22  h=32   L=2 w=40  do=0.24 lr=1.51e-03  -> RMSE=14.499 MAE=10.397
+  trial 23  h=32   L=2 w=40  do=0.18 lr=3.92e-03  -> RMSE=14.583 MAE=10.887
+  trial 24  h=32   L=2 w=20  do=0.21 lr=3.85e-03  -> RMSE=16.581 MAE=11.710
+  trial 25  h=32   L=2 w=40  do=0.25 lr=2.22e-03  -> RMSE=14.258 MAE=10.110
+  trial 26  h=32   L=2 w=40  do=0.25 lr=1.44e-03  -> RMSE=14.349 MAE=10.427
+  trial 27  h=32   L=2 w=40  do=0.27 lr=3.00e-03  -> RMSE=14.969 MAE=10.372
+  trial 28  h=32   L=2 w=40  do=0.15 lr=6.42e-03  -> RMSE=14.337 MAE=10.488
+  trial 29  h=64   L=2 w=40  do=0.13 lr=7.80e-03  -> RMSE=14.763 MAE=10.784
+  trial 30  h=64   L=2 w=40  do=0.20 lr=5.69e-03  -> RMSE=14.243 MAE=10.930
+{
+  "best_by_val_rmse": {
+    "rmse": 14.499212727663734,
+    "mae": 10.396658349037171
+  },
+  "min_rmse": 13.989190963708667,
+  "min_mae": 10.11045868396759,
+  "device": "NVIDIA GeForce GTX 1060 3GB",
+  "peak_vram_MiB": 534.2,
+  "seconds": 518.7
+}

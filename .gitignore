@@ -1,0 +1,11 @@
+# Google Drive 產生的檔案
+desktop.ini
+
+# 第三方論文全文（著作權屬各出版者，不隨本 repo 散布）
+# 取得方式與完整書目見 references/README.md
+references/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

@@ -1,0 +1,22 @@
+保留感測器 15 個：['s2', 's3', 's4', 's6', 's7', 's8', 's9', 's11', 's12', 's13', 's14', 's15', 's17', 's20', 's21']
+特徵重要性前 20 名：['s4_ma', 's9_ma', 's11_ma', 's14_ma', 's15_ma', 's7_ma', 's21_ma', 's12_ma', 's20_ma', 's2_ma', 's3_ma', 's13_ma', 's14_sd', 's9', 's7_sd', 's8_ma', 's11_sd', 's9_sd', 's8_sd', 's13_sd']
+  n=200   depth=None  mf=sqrt  RMSE=18.902  MAE=13.675
+  n=200   depth=None  mf=0.5   RMSE=19.187  MAE=13.946
+  n=200   depth=12    mf=sqrt  RMSE=18.576  MAE=13.345
+  n=200   depth=12    mf=0.5   RMSE=18.673  MAE=13.474
+  n=200   depth=20    mf=sqrt  RMSE=18.914  MAE=13.655
+  n=200   depth=20    mf=0.5   RMSE=19.285  MAE=14.035
+  n=500   depth=None  mf=sqrt  RMSE=18.923  MAE=13.750
+  n=500   depth=None  mf=0.5   RMSE=19.114  MAE=13.867
+  n=500   depth=12    mf=sqrt  RMSE=18.527  MAE=13.339
+  n=500   depth=12    mf=0.5   RMSE=18.759  MAE=13.536
+  n=500   depth=20    mf=sqrt  RMSE=19.037  MAE=13.820
+  n=500   depth=20    mf=0.5   RMSE=19.200  MAE=14.005
+{
+  "best_rmse": 18.526634054841857,
+  "best_mae": 13.338899102561895,
+  "median_rmse": 18.918572682058052,
+  "median_mae": 13.71254,
+  "device": "CPU",
+  "seconds": 520.6
+}
