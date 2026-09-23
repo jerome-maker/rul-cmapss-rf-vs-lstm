@@ -227,3 +227,18 @@ C:\Users\test\anaconda3\python.exe src\make_figures.py
    model for predictive maintenance applications in the aircraft industry.* ACDSA 2024.
 5. Saxena, A.; Goebel, K.; Simon, D.; Eklund, N. (2008). *Damage Propagation Modeling for
    Aircraft Engine Run-to-Failure Simulation.* PHM 2008.
+
+---
+
+## 八、授權
+
+本專案自行撰寫的程式碼（`src/`）與文件以 MIT License 釋出，詳見
+[`LICENSE`](LICENSE)。歡迎重製、修改與再散布，惟須保留著作權聲明。
+
+以下內容不在本授權範圍內，各自沿用原本的條款：
+
+- **C-MAPSS 資料集**（`data/`）：由 NASA Prognostics Center of Excellence 發布，
+  屬美國政府作品，可自由使用；引用時請標註上列第 5 篇原始說明文件。
+- **參考文獻**（`references/`）：著作權歸各論文作者與出版方所有，
+  重製與再散布須依各篇授權條款（多數為 CC BY 4.0，詳見
+  [`references/README.md`](references/README.md)）。
